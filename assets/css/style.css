@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* removed header class to just use header tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
