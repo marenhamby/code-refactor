@@ -20,7 +20,8 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* removed header and h1 since this is the only instance of this class */
+.seo {
     color: #d9dcd6;
 }
 
