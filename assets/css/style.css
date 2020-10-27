@@ -69,13 +69,15 @@ figure {
     margin-left: 25px;
 }
 
-.content {
+/* removed content class to just use section tag */
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* removed benefits class to just use aside tag */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -188,13 +190,14 @@ figure {
     font-size: 36px;
 }
 
-.footer {
+/* removed footer class to just use footer tag */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
