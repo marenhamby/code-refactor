@@ -75,6 +75,34 @@ section {
     display: inline-block;
     margin-left: 20px;
 }
+/* moved up other section items to be with the first section tag */
+
+/* removed search-engine-optimization, online-reputation-management, and 
+social-media-marketing classes and combined to just use section div tags. 
+Combined all three since the style set was the same for all. */
+section div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* removed search-engine-optimization img, online-reputation-management img, and 
+social-media-marketing img classes and combined to just use section div img tags. 
+Combined all three since the style set was the same for all. */
+section div img {
+    max-height: 200px;
+}
+
+/* removed search-engine-optimization h2, online-reputation-management h2, and 
+social-media-marketing h2 classes and combined to just use div h2 tags. 
+Combined all three since the style set was the same for all. */
+div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 /* removed benefits class to just use aside tag */
 aside {
@@ -111,33 +139,6 @@ aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* removed search-engine-optimization, online-reputation-management, and 
-social-media-marketing classes and combined to just use section div tags. 
-Combined all three since the style set was the same for all. */
-section div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* removed search-engine-optimization img, online-reputation-management img, and 
-social-media-marketing img classes and combined to just use section div img tags. 
-Combined all three since the style set was the same for all. */
-section div img {
-    max-height: 200px;
-}
-
-/* removed search-engine-optimization h2, online-reputation-management h2, and 
-social-media-marketing h2 classes and combined to just use div h2 tags. 
-Combined all three since the style set was the same for all. */
-div h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* removed footer class to just use footer tag */
